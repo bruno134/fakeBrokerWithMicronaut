@@ -1,0 +1,1 @@
+{"groups":[{"name":"hello.config.greeting","type":"com.bdnrfob.HelloWorldConfig"}],"properties":[{"name":"hello.config.greeting.de","type":"java.lang.String","sourceType":"com.bdnrfob.HelloWorldConfig"},{"name":"hello.config.greeting.en","type":"java.lang.String","sourceType":"com.bdnrfob.HelloWorldConfig"}]}

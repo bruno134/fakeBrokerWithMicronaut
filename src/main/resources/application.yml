@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: mnStokerBroker
+  server:
+    port: 8080
+hello:
+  controller:
+    path: "/hello"
+  service:
+    greeting: "Hello World from yml"
+  config:
+    greeting:
+      de: "Hallo"
+      en: "Hello"
