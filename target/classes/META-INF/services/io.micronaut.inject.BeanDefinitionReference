@@ -1,7 +1,10 @@
+com.bdnrfob.broker.account.$WatchListControllerDefinitionClass
 com.bdnrfob.$HelloWorldControllerDefinitionClass
-com.bdnrfob.broker.$QuotesControllerDefinitionClass
 com.bdnrfob.$HelloWorldConfigDefinitionClass
+com.bdnrfob.broker.$QuotesControllerDefinitionClass
+com.bdnrfob.broker.store.$InMemoryAccountStoreDefinitionClass
 com.bdnrfob.$HelloWorldServiceDefinitionClass
 com.bdnrfob.$HelloWorldService$ApplicationEventListener$onStartup1$InterceptedDefinitionClass
-com.bdnrfob.broker.$MarketsControllerDefinitionClass
 com.bdnrfob.broker.store.$InMemoryStoreDefinitionClass
+com.bdnrfob.broker.$MarketsControllerDefinitionClass
+com.bdnrfob.broker.account.$WatchListReactiveControllerDefinitionClass

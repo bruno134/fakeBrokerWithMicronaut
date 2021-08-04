@@ -1,3 +1,5 @@
+com.bdnrfob.broker.account.$WatchListReactiveControllerTestDefinitionClass
 com.bdnrfob.broker.$QuotesControllerTestDefinitionClass
 com.bdnrfob.broker.$MarketsControllerTestDefinitionClass
 com.bdnrfob.$HelloWorldControllerTestDefinitionClass
+com.bdnrfob.broker.account.$WatchListControllerTestDefinitionClass
