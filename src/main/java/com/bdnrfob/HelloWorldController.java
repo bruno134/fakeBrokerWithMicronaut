@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Get;
 @Controller("${hello.controller.path}")
 public class HelloWorldController {
 
-    //@Inject poderia ser usado que o @autowired em Java
+    //@Inject poderia ser usado como o @autowired em Java
     private final HelloWorldService service;
     private final HelloWorldConfig config;
 
@@ -30,6 +30,10 @@ public class HelloWorldController {
         return config.getEn();
     }
 
+    @Get("/json")
+    public Greeting sayHelloAsJson(){
+        return new Greeting();
+    }
 
 
 }
