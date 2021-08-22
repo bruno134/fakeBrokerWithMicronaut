@@ -17,6 +17,14 @@ micronaut:
       swagger-ui:
         paths: classpath:META-INF/swagger/views/swagger-ui
         mapping: /swagger-ui/**
+  security:
+    authentication: bearer
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: "@mypassword"
 hello:
   controller:
     path: "/hello"
@@ -38,3 +46,4 @@ jackson:
   #generator:
    # writeNumberAsString: true
    # writeBigDecimalAsPlain: true
+

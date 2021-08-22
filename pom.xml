@@ -97,8 +97,15 @@
       <artifactId>assertj-core</artifactId>
       <version>${assertj-core.version}</version>
     </dependency>
+    <dependency>
+      <groupId>io.micronaut.security</groupId>
+      <artifactId>micronaut-security-jwt</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut.security</groupId>
+      <artifactId>micronaut-security-annotations</artifactId>
+    </dependency>
   </dependencies>
-
   <build>
     <plugins>
       <plugin>
