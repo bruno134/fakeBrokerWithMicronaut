@@ -18,7 +18,7 @@ public class HelloWorldController {
         this.config = config;
     }
 
-    @Get("/")
+    @Get
     public String hello(){
         return service.sayHi();
     }

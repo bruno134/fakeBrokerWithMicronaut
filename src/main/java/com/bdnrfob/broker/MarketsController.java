@@ -19,7 +19,7 @@ public class MarketsController {
         this.store = store;
     }
 
-    @Get("/")
+    @Get
     public List<Symbol> all(){
         return store.getAllSymbols();
     }
