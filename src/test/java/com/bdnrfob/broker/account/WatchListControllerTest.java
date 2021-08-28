@@ -21,7 +21,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static io.micronaut.http.HttpRequest.*;
+import static io.micronaut.http.HttpRequest.GET;
 import static org.junit.jupiter.api.Assertions.*;
 
 

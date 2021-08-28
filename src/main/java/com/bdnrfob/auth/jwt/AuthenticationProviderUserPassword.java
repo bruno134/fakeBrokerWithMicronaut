@@ -21,9 +21,10 @@ public class AuthenticationProviderUserPassword implements AuthenticationProvide
     public Publisher<AuthenticationResponse> authenticate(
             @Nullable final HttpRequest<?> httpRequest,
             final AuthenticationRequest<?, ?> authenticationRequest) {
-        return Flowable.create(emitter -> {
-            final Object identity = authenticationRequest.getIdentity();
-            final Object password = authenticationRequest.getSecret();
+
+            return Flowable.create(emitter -> {
+                final Object identity = authenticationRequest.getIdentity();
+                final Object password = authenticationRequest.getSecret();
 
             LOG.debug("User {} tries to login... ", identity);
 
