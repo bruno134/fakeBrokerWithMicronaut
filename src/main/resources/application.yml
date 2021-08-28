@@ -24,7 +24,7 @@ micronaut:
         signatures:
           secret:
             generator:
-              secret: "@mypassword"
+              secret: changeThisSecretToALongSecureString
 hello:
   controller:
     path: "/hello"
